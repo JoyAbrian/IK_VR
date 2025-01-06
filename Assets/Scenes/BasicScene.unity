@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &164631252 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4773853129330241916, guid: cf5711c3dc2413542935eb81a5ef2295, type: 3}
-  m_PrefabInstance: {fileID: 2983469511646822704}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &299639867
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,39 +348,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &827161053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6557438980538931277, guid: cf5711c3dc2413542935eb81a5ef2295, type: 3}
-  m_PrefabInstance: {fileID: 2983469511646822704}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &827161055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827161053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a8098103f299b44be14d0de50e7fe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isMovingForward: 0
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 1
-  body: {fileID: 164631252}
-  otherFoot: {fileID: 1644631551}
-  speed: 4
-  stepDistance: 0.2
-  stepLength: 0.2
-  sideStepLength: 0.1
-  stepHeight: 0.3
-  footOffset: {x: 0, y: 0, z: 0}
-  footRotOffset: {x: -120, y: 180, z: 0}
-  footYPosOffset: 0.1
-  rayStartYOffset: 0
-  rayLength: 1.5
 --- !u!1 &1249617917
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,39 +536,6 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &1644631549 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3980330128691527217, guid: cf5711c3dc2413542935eb81a5ef2295, type: 3}
-  m_PrefabInstance: {fileID: 2983469511646822704}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1644631551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644631549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a8098103f299b44be14d0de50e7fe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isMovingForward: 0
-  terrainLayer:
-    serializedVersion: 2
-    m_Bits: 1
-  body: {fileID: 164631252}
-  otherFoot: {fileID: 827161055}
-  speed: 4
-  stepDistance: 0.2
-  stepLength: 0.2
-  sideStepLength: 0.1
-  stepHeight: 0.3
-  footOffset: {x: 0, y: 0, z: 0}
-  footRotOffset: {x: -120, y: 180, z: 0}
-  footYPosOffset: 0.1
-  rayStartYOffset: 0
-  rayLength: 1.5
 --- !u!1 &2092139007
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,13 +677,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6557438980538931277, guid: cf5711c3dc2413542935eb81a5ef2295, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 827161055}
-    - targetCorrespondingSourceObject: {fileID: 3980330128691527217, guid: cf5711c3dc2413542935eb81a5ef2295, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1644631551}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5711c3dc2413542935eb81a5ef2295, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
