@@ -811,6 +811,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1227240108519051907}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4504294847535176126}
   m_SourcePrefab: {fileID: 100100000, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
 --- !u!4 &249919490589646293 stripped
 Transform:
@@ -1207,6 +1210,20 @@ MonoBehaviour:
         m_Flags: 0
       m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   animator: {fileID: 1486204319423294214}
+--- !u!114 &4504294847535176126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5263567274050972614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f975f3a81bec31f439a179d0bae44bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xrCamera: {fileID: 0}
+  defaultHeight: 1.6
 --- !u!4 &5301751482760294921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8333627713332763490, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
