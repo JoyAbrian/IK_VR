@@ -1142,7 +1142,7 @@ MonoBehaviour:
     ikTarget: {fileID: 1376488773448697930}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
-  headBodyPositionOffset: {x: 0, y: -0.54, z: 0}
+  headBodyPositionOffset: {x: 0, y: -0.54, z: -0.1}
   headBodyYawOffset: 0
 --- !u!114 &1227240108519051907
 MonoBehaviour:
