@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b342d8ce5c2fd48b8fa3147d48d1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Weight: 1
+  m_Weight: 0
   m_Effectors: []
 --- !u!1 &3980330128691527217
 GameObject:
@@ -938,15 +938,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1211157
+      value: 0.107381344
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000011920929
+      value: 0.000000059604645
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.354621
+      value: 3.9992895
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2952323664
+  GlobalObjectIdHash: 1166825712
   InScenePlacedSourceGlobalObjectIdHash: 2952323664
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -1495,7 +1495,6 @@ MonoBehaviour:
   sittingRig: {fileID: 7678884946774542730}
   sitThreshold: 0.5
   isSitting: 0
-  seatPosition: {fileID: 0}
 --- !u!4 &5301751482760294921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8333627713332763490, guid: 44547c7fc7e973d459c5815327bc2654, type: 3}
